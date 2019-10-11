@@ -10,23 +10,25 @@
     <header>
       <h1>Will Andy Pick Me?</h1>
     </header>
-    <section>
+    <section class="wrapper">
       <section>
         <main>
-          <div>
-            <p>Ask your question here!</p>
+          <div class="question">
+            <input id="question" type="text" placeholder="Ask your question here!"></input>
           </div>
-          <div>
-            <p>Get your answer</p>
+          <div class="submit-btn" >
+            <button id="submit-btn" type="submit">Get your answer</button>
           </div>
-          <img src="assets/eight-ball.png" alt="eight ball">
-          <button type="reset">Clear</button>
+          <img class="eight-ball-img" src="assets/eight-ball.png" alt="eight ball">
+          <p class="repeat-ques">User question will go here.</p>
+          <p class="message">Eight-ball message will display here.</p>
+          <button class="clear-btn" type="reset">Clear</button>
         </main>
       </section>
       <section>
-        <img src="assets/woody.png" alt="woody from the movie Toy Story">
+        <img class ="woody-img" src="assets/woody.png" alt="woody from the movie Toy Story">
       </section>
     </section>
-
   </body>
+  <script src="script.js" type="text/javascript"></script>
 </html>
